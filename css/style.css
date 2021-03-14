@@ -1,0 +1,42 @@
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+
+html, body{
+    background-color: #35495e;
+    color: #eee;
+}
+
+.app{
+    display:block;
+    text-align: center;
+}
+
+.count{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+button{
+    background-color: #41b883;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: snow;
+    margin: 0 .5rem;
+    outline: none;
+    border-radius: 20%;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #379c6f;
+}
